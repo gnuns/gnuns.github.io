@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Gabriel - Portfolio</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.1.20/jquery.fancybox.min.css">
+  <style media="screen">
+    body {
+      font-family: 'Open Sans', sans-serif;
+      background-color: #f1f1f1;
+    }
+    .item {
+      margin-top: 20px;
+    }
+    .item > div {
+      display: none;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="page-header">
+    </div>
+    <div class="row">
+      <div class="col-md-4 item">
+        <a data-fancybox="fluxstore" href="img/flux/cover.png" data-caption="Flux Store: design da marca e do site">
+        	<img class="img-responsive" src="img/flux/cover.png" alt="" />
+        </a>
+        <div>
+          <a data-fancybox="fluxstore" href="img/flux/1.jpg" title=""></a>
+          <a data-fancybox="fluxstore" href="img/flux/2.jpg" title=""></a>
+          <a data-fancybox="fluxstore" href="img/flux/3.png" title=""></a>
+          <a data-fancybox="fluxstore" href="img/flux/4.png" title=""></a>
+        </div>
+      </div>
+      <div class="col-md-4 item">
+        <a data-fancybox="verdebem" href="img/verdebem/cover.png" data-caption="VerdeBem: design da marca e do site">
+        	<img class="img-responsive" src="img/verdebem/cover.png" alt="" />
+        </a>
+        <div>
+          <a data-fancybox="verdebem" href="img/verdebem/1.png" title=""></a>
+          <a data-fancybox="verdebem" href="img/verdebem/2.jpg" title=""></a>
+          <a data-fancybox="verdebem" href="img/verdebem/3.png" title=""></a>
+        </div>
+      </div>
+      <div class="col-md-4 item">
+        <a data-fancybox="consulta" href="img/consulta/cover.png" data-caption="ConsultaJá (2015): redesign completo da plataforma e manutenção do código">
+        	<img class="img-responsive" src="img/consulta/cover.png" alt="" />
+        </a>
+        <div>
+          <a data-fancybox="consulta" href="img/consulta/1.jpg" title=""></a>
+          <a data-fancybox="consulta" href="img/consulta/2.png" title=""></a>
+          <a data-fancybox="consulta" href="img/consulta/3.png" title=""></a>
+          <a data-fancybox="consulta" href="img/consulta/4.png" title=""></a>
+          <a data-fancybox="consulta" href="img/consulta/5.jpg" title=""></a>
+          <a data-fancybox="consulta" href="img/consulta/6.png" title=""></a>
+          <a data-fancybox="consulta" href="img/consulta/7.png" title=""></a>
+        </div>
+      </div>
+      <div class="col-md-4 item">
+        <a data-fancybox="playanimes" href="img/playanimes/cover.png" data-caption="PlayAnimes (2014-2015): criação do design e desenvolvimento de toda a plataforma de gestão e upload de vídeos">
+        	<img class="img-responsive" src="img/playanimes/cover.png" alt="" />
+        </a>
+        <div>
+          <a data-fancybox="playanimes" href="img/playanimes/1.jpg" title=""></a>
+          <a data-fancybox="playanimes" href="img/playanimes/2.jpg" title=""></a>
+        </div>
+      </div>
+    </div>
+    <hr>
+    <footer class="footer">
+      <p>por <a href="https://multiverso.me/">Gabriel Nunes</a></p>
+    </footer>
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.slim.min.js" charset="utf-8"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.1.20/jquery.fancybox.min.js" charset="utf-8"></script>
+  <script type="text/javascript">
+    $(document).ready(function(){
+      $("[data-fancybox]").fancybox({thumbs: {autoStart : true}});
+    });
+  </script>
+</body>
+</html>
