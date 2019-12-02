@@ -6,46 +6,47 @@ I hereby claim:
 
   * I am an admin of https://multiverso.me
   * I am gnuns (https://keybase.io/gnuns) on keybase.
-  * I have a public key ASDrT0GFpMuBgxqFW10GAuU17nvuZ_Vru3CVO7mVN9DlUwo
+  * I have a public key ASDIVZjmR6eaWlVGr1dnQ-Udk182jRtowFU_ZaZd_wOMXAo
 
 To do so, I am signing this object:
 
 {
-    "body": {
-        "key": {
-            "eldest_kid": "0120eb4f4185a4cb81831a855b5d0602e535ee7bee67f56bbb70953bb99537d0e5530a",
-            "host": "keybase.io",
-            "kid": "0120eb4f4185a4cb81831a855b5d0602e535ee7bee67f56bbb70953bb99537d0e5530a",
-            "uid": "dda5a30634ec4d8816ed0927d9cace19",
-            "username": "gnuns"
-        },
-        "merkle_root": {
-            "ctime": 1498847732,
-            "hash": "8043fd083d00a8e6851888c5d768ce9349429617914d7a78c66ecd215415553a67a37df38934a8417e209f2649e9317dd2391692472d10a3639da5c9834521c2",
-            "hash_meta": "44486368e2d7a12bdb8044387efa5e8cf3782e925cad8bae8abac521c1352193",
-            "seqno": 1203617
-        },
-        "service": {
-            "hostname": "multiverso.me",
-            "protocol": "https:"
-        },
-        "type": "web_service_binding",
-        "version": 1
+  "body": {
+    "key": {
+      "eldest_kid": "0120c85598e647a79a5a5546af576743e51d935f368d1b68c0553f65a65dff038c5c0a",
+      "host": "keybase.io",
+      "kid": "0120c85598e647a79a5a5546af576743e51d935f368d1b68c0553f65a65dff038c5c0a",
+      "uid": "dda5a30634ec4d8816ed0927d9cace19",
+      "username": "gnuns"
     },
-    "client": {
-        "name": "keybase.io go client",
-        "version": "1.0.24"
+    "merkle_root": {
+      "ctime": 1575311731,
+      "hash": "0ed0ca4e971c3f98979729fd4b538940a51f679081dc3ea91d4e5a5e0fccdbf94c0ff1725d8e5a184ddaabaed9090a61fc6bbedca7dbf59d79e39b3533f324c0",
+      "hash_meta": "27d67878b33e4c3e9e925599fbfc758931fb050141851018198a5e287775da8b",
+      "seqno": 11810263
     },
-    "ctime": 1498847811,
-    "expire_in": 504576000,
-    "prev": "d6314d0d47c12a9cd020a800f4bf5363936f4636cef663ce4bfa839c1e194feb",
-    "seqno": 9,
-    "tag": "signature"
+    "service": {
+      "entropy": "tmhxvzeBZnKlBMzJZbOgy82x",
+      "hostname": "multiverso.me",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "5.0.0"
+  },
+  "ctime": 1575311737,
+  "expire_in": 504576000,
+  "prev": "dab89d7b324fc555013b917f8be41052bfca00a04a3faf220c3521932fc063c2",
+  "seqno": 34,
+  "tag": "signature"
 }
 
 which yields the signature:
 
-hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEg609BhaTLgYMahVtdBgLlNe577mf1a7twlTu5lTfQ5VMKp3BheWxvYWTFA0J7ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTIwZWI0ZjQxODVhNGNiODE4MzFhODU1YjVkMDYwMmU1MzVlZTdiZWU2N2Y1NmJiYjcwOTUzYmI5OTUzN2QwZTU1MzBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwZWI0ZjQxODVhNGNiODE4MzFhODU1YjVkMDYwMmU1MzVlZTdiZWU2N2Y1NmJiYjcwOTUzYmI5OTUzN2QwZTU1MzBhIiwidWlkIjoiZGRhNWEzMDYzNGVjNGQ4ODE2ZWQwOTI3ZDljYWNlMTkiLCJ1c2VybmFtZSI6ImdudW5zIn0sIm1lcmtsZV9yb290Ijp7ImN0aW1lIjoxNDk4ODQ3NzMyLCJoYXNoIjoiODA0M2ZkMDgzZDAwYThlNjg1MTg4OGM1ZDc2OGNlOTM0OTQyOTYxNzkxNGQ3YTc4YzY2ZWNkMjE1NDE1NTUzYTY3YTM3ZGYzODkzNGE4NDE3ZTIwOWYyNjQ5ZTkzMTdkZDIzOTE2OTI0NzJkMTBhMzYzOWRhNWM5ODM0NTIxYzIiLCJoYXNoX21ldGEiOiI0NDQ4NjM2OGUyZDdhMTJiZGI4MDQ0Mzg3ZWZhNWU4Y2YzNzgyZTkyNWNhZDhiYWU4YWJhYzUyMWMxMzUyMTkzIiwic2Vxbm8iOjEyMDM2MTd9LCJzZXJ2aWNlIjp7Imhvc3RuYW1lIjoibXVsdGl2ZXJzby5tZSIsInByb3RvY29sIjoiaHR0cHM6In0sInR5cGUiOiJ3ZWJfc2VydmljZV9iaW5kaW5nIiwidmVyc2lvbiI6MX0sImNsaWVudCI6eyJuYW1lIjoia2V5YmFzZS5pbyBnbyBjbGllbnQiLCJ2ZXJzaW9uIjoiMS4wLjI0In0sImN0aW1lIjoxNDk4ODQ3ODExLCJleHBpcmVfaW4iOjUwNDU3NjAwMCwicHJldiI6ImQ2MzE0ZDBkNDdjMTJhOWNkMDIwYTgwMGY0YmY1MzYzOTM2ZjQ2MzZjZWY2NjNjZTRiZmE4MzljMWUxOTRmZWIiLCJzZXFubyI6OSwidGFnIjoic2lnbmF0dXJlIn2jc2lnxEBsTtw5oYDfsZ+V+9DED5HxwykMU8DHWrBP3w50TKliXCiPIZbFR4N+zsCs12PWQIcBgREUsYOCAy8Bx/X69CUNqHNpZ190eXBlIKRoYXNogqR0eXBlCKV2YWx1ZcQga2JtS9iHMAzpCvZlElgxak3gAl5NwoMF46M9Ji+Lc7+jdGFnzQICp3ZlcnNpb24B
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgyFWY5kenmlpVRq9XZ0PlHZNfNo0baMBVP2WmXf8DjFwKp3BheWxvYWTESpcCIsQg2ridezJPxVUBO5F/i+QQUr/KAKBKP68iDDUhky/AY8LEIA0Q+bBifyyAk+z78kTKBRKnrIdMGvC0xpXltjcAysdwAgHCo3NpZ8RA7IA28IhLqhZWmosxvHEhExRyZa7ROknTWW5zPTfne3hmfP4Vyf0s4OlPM4jIMoUDPjnDP4vsRnAFqhN/zG+RBqhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIGvXlJt2fLUgAeJ6xNxtOKL9t+C4CjiarBIHKp3X2Ktjo3RhZ80CAqd2ZXJzaW9uAQ==
 
 And finally, I am proving ownership of this host by posting or
 appending to this document.
